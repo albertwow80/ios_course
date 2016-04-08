@@ -15,6 +15,7 @@
 		507AE7FA1CB7603400E6A184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507AE7F81CB7603400E6A184 /* LaunchScreen.storyboard */; };
 		507AE8051CB7603400E6A184 /* DropitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 507AE8041CB7603400E6A184 /* DropitTests.m */; };
 		507AE8101CB7603400E6A184 /* DropitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 507AE80F1CB7603400E6A184 /* DropitUITests.m */; };
+		507AE81F1CB766C400E6A184 /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 507AE81E1CB766C400E6A184 /* DropitBehavior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		507AE80B1CB7603400E6A184 /* DropitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		507AE80F1CB7603400E6A184 /* DropitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropitUITests.m; sourceTree = "<group>"; };
 		507AE8111CB7603400E6A184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		507AE81D1CB766C400E6A184 /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
+		507AE81E1CB766C400E6A184 /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				507AE7EE1CB7603400E6A184 /* AppDelegate.m */,
 				507AE7F01CB7603400E6A184 /* ViewController.h */,
 				507AE7F11CB7603400E6A184 /* ViewController.m */,
+				507AE81D1CB766C400E6A184 /* DropitBehavior.h */,
+				507AE81E1CB766C400E6A184 /* DropitBehavior.m */,
 				507AE7F31CB7603400E6A184 /* Main.storyboard */,
 				507AE7F61CB7603400E6A184 /* Assets.xcassets */,
 				507AE7F81CB7603400E6A184 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				507AE7F21CB7603400E6A184 /* ViewController.m in Sources */,
+				507AE81F1CB766C400E6A184 /* DropitBehavior.m in Sources */,
 				507AE7EF1CB7603400E6A184 /* AppDelegate.m in Sources */,
 				507AE7EC1CB7603400E6A184 /* main.m in Sources */,
 			);
@@ -496,6 +502,7 @@
 				507AE8161CB7603400E6A184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		507AE8171CB7603400E6A184 /* Build configuration list for PBXNativeTarget "DropitTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				507AE8191CB7603400E6A184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		507AE81A1CB7603400E6A184 /* Build configuration list for PBXNativeTarget "DropitUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				507AE81C1CB7603400E6A184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
